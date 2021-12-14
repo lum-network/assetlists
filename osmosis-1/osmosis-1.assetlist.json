@@ -774,6 +774,34 @@
         "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/cheq.svg"
       },
       "coingecko_id": "cheqd-network"
+    },
+    {
+      "description": "The native token of Chihuahua Chain",
+      "denom_units": [
+        {
+          "denom": "TODO",
+          "exponent": 0,
+          "aliases": [
+            "uhuahua"
+          ]
+        },
+        {
+          "denom": "huahua",
+          "exponent": 6
+        }
+      ],
+      "base": "uhuahua",
+      "name": "Chihuahua",
+      "display": "huahua",
+      "symbol": "HUAHUA",
+      "ibc": {
+        "source_channel": "TODO",
+        "dst_channel": "TODO",
+        "source_denom": "uhuahua"
+      },
+      "logo_URIs": {
+        "png": "https://github.com/ChihuahuaChain/resources/raw/main/chihuahua.png"
+      }
     }
   ]
 }
